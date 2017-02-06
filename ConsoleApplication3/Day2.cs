@@ -17,12 +17,12 @@ namespace Day2
             Console.WriteLine("$ {0:0,000.00}", cash);
             Console.WriteLine("$ {0}", cash);
 
-            double x = 123; //double y = 33.334;
-            Console.WriteLine("{0:#.#}",x);
-            Console.WriteLine("{0:0}", x);    //123
-            Console.WriteLine("{0:0000}", x); //0123
-            Console.WriteLine("{0:##00}", x); //123, # means optional. If there is C# will print, otherwise, it will not
-            Console.WriteLine("{0:0.000}", x);
+            double y = 123; //double y = 33.334;
+            Console.WriteLine("{0:#.#}",y);
+            Console.WriteLine("{0:0}", y);    //123
+            Console.WriteLine("{0:0000}", y); //0123
+            Console.WriteLine("{0:##00}", y); //123, # means optional. If there is C# will print, otherwise, it will not
+            Console.WriteLine("{0:0.000}", y);
         }
     }
 }
