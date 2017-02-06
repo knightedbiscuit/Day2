@@ -23,6 +23,12 @@ namespace Day2
             Console.WriteLine("{0:0000}", y); //0123
             Console.WriteLine("{0:##00}", y); //123, # means optional. If there is C# will print, otherwise, it will not
             Console.WriteLine("{0:0.000}", y);
+
+            string input = Console.ReadLine();
+            Console.WriteLine("Hey {0}", input);
+
+
+
         }
     }
 }
